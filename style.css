@@ -73,13 +73,6 @@ html {
 body{
     background-color: var(--color-dark-mode);
     overflow-x: hidden;
-    cursor: none;
-    cursor: url('cursorr.png');
-    cursor: url('cursorr.png'),
-    url('cursorr.png');
-    cursor: url('cursorr.png'),
-    move;
-        cursor: url('cursorr.png')10 12;
 }
 
 
@@ -594,15 +587,12 @@ noscript{
     width:fit-content;
     display: flex;
     align-items: flex-start;
-    background: -webkit-linear-gradient(135deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
-    background: linear-gradient(-45deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+    background: -webkit-linear-gradient(135deg,var(--color-light-purple),var(--color-purple),var(--color-light-purple),var(--color-purple));
+    /* background: linear-gradient(-45deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple)); */
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
-    -webkit-animation: gradient 3s ease infinite;
-    animation: gradient 3s ease infinite;
-
 }
 @keyframes gradient {
     0% {
