@@ -381,11 +381,6 @@ noscript{
     }
 }
 
-.logo:hover{
-    transform: translateY(200px);
-    transition-duration: 1s;
-}
-
 
 .activeThistab{
     color: var(--color-white);
