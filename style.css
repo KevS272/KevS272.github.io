@@ -1028,6 +1028,14 @@ noscript{
     gap: 20px;
     
 }
+
+.affil-section{
+    display: flex;
+    flex-direction: column; /* Set the flex direction to column */
+    gap: 20px;
+    align-items: stretch;
+}
+
 .language-name{
     background-color: rgba(255, 255, 255, 0.005);
     display: flex;
@@ -1057,6 +1065,11 @@ noscript{
     width: 100%;
     transition-duration: .5s;
 }
+
+.stretch_affil{
+    width: 100%;
+}
+
 @keyframes gradientforlanguage {
 	0% {
 		background-position: 0% 50%;
