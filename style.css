@@ -1450,12 +1450,6 @@ border: none;
         justify-content: center;
     }
 
-    .logo:hover{
-        transform: translateY(200px);
-        transition-duration: 1s;
-        width: 50px;
-        height: 50px;
-    }
     .skills-section{
         width: 80%;
     }
@@ -1725,10 +1719,6 @@ transition-duration: 1.6s;
     }
     .dp::after{display: none;}
 
-    .logo:hover{
-    transform: translateY(200px);
-    transition-duration: 1s;
-}
  .language-name{
         width: 100%;
      } 
@@ -1764,10 +1754,6 @@ transition-duration: 1.6s;
     .logo{
         width: 50px;
         height: 50px;
-    }
-    .logo:hover{
-        transform: translateY(200px);
-        transition-duration: 1s;
     }
     #hello-friend{
         font-size: 2.5rem;
