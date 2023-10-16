@@ -520,8 +520,8 @@ noscript{
     padding-left: 300px;
 }
 #hello-friend{
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 100;
     width:fit-content;
     height: 100px;
     display: flex;
@@ -618,7 +618,7 @@ noscript{
 }
 
 #work{
-    font-size: 8rem;
+    font-size: 4rem;
     font-weight:700;
     width:fit-content;
     display: flex;
@@ -1757,10 +1757,13 @@ transition-duration: 1.6s;
     }
     #hello-friend{
         height: 100px;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
-    #name,#work{
-        font-size: 5.5rem;
+    #name{
+        font-size: 8rem;
+    }
+    #work{
+        font-size: 4rem;
     }
     #info-para{
         width: 100%;
