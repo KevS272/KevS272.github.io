@@ -508,11 +508,11 @@ noscript{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('src/jpg/title.jpg');
+    background-image: url('src/png/title.png');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    opacity: 0.2; /* Adjust the opacity value to control visibility */
+    opacity: 0.1; /* Adjust the opacity value to control visibility */
 }
 
 .text-content {
@@ -1109,6 +1109,8 @@ noscript{
     font-weight: 400;
     color: rgb(101, 100, 100);
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* skills section ends */
