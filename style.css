@@ -136,7 +136,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transform:translate(-50px)scale(0);
     transition-duration: .3s;
 }
 .visualmodeshow{
@@ -339,21 +338,23 @@ noscript{
     font-weight: 100;
 }
 .logo{
-    position: relative;
-    width: 10%;
-    height: 100%;
-    transition-duration: 1s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes the element a circle */
+    background: -webkit-linear-gradient(135deg,var(--color-light-purple),var(--color-light-blue),var(--color-purple),var(--color-light-purple)); /* Adjust the colors as needed */
 
 }
+.initials{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    text-align: center; /* Additional horizontal centering for text */
+    height: 100%; /* Set a specific height for the container */
+    color:white;
+    font-size: 2rem; 
+    font-weight:700;
+}
+
 .hey{
     color: white;
     position: absolute;
@@ -379,90 +380,7 @@ noscript{
         opacity: 0;
     }
 }
-.logo-top{
-    width: 100%;
-    height:84%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: headshake 15s linear infinite;
-    transform-origin: bottom;
-    position: relative;
-}
-@keyframes headshake {
-    0%{
-        transform: rotate(-8deg);
-    }
-    25%{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(8deg);
-    }
-    75%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(-8deg);
-    }
-    
-}
 
-.logo-top img{
-    height: 100%;
-    z-index: 2;
-    
-}
-.face{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 60%;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    z-index: 1;
-}
-.eye{
-   width: 8px;
-   height: 8px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: white;
-   overflow: hidden;
-
-
-}
-.pupil{
-    width:4px;
-    height:4px;
-    background: rgb(36, 16, 16);
-    border-radius: 50%;
-}
-/* .eye:after { 
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    left: .7px;
-    top: 0;
-    background: #000;
-    border-radius: 50%;
-    content: " ";
-  } */
-.logo-bottom{
-    width: 100%;
-    height: 16%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo-bottom img{
-    height: 100%;
-}
 .logo:hover{
     transform: translateY(200px);
     transition-duration: 1s;
@@ -1535,6 +1453,8 @@ border: none;
     .logo:hover{
         transform: translateY(200px);
         transition-duration: 1s;
+        width: 50px;
+        height: 50px;
     }
     .skills-section{
         width: 80%;
@@ -1805,9 +1725,6 @@ transition-duration: 1.6s;
     }
     .dp::after{display: none;}
 
-    .logo{
-        width: 18%;
-    }
     .logo:hover{
     transform: translateY(200px);
     transition-duration: 1s;
@@ -1843,6 +1760,10 @@ transition-duration: 1.6s;
     }
     .hey{
         left: 70px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
     }
     .logo:hover{
         transform: translateY(200px);

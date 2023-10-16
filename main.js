@@ -23,11 +23,6 @@ window.addEventListener("load", function () {
 // preloader script ends here.........
 
 // switch for setting
-function settingtoggle(){
-  document.getElementById("setting-container").classList.toggle('settingactivate');
-  document.getElementById("visualmodetogglebuttoncontainer").classList.toggle('visualmodeshow');
-  document.getElementById("soundtogglebuttoncontainer").classList.toggle('soundmodeshow');
-}
 function playpause() {
   if (document.getElementById('switchforsound').checked == false) {
     audio.pause();
