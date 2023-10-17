@@ -1568,7 +1568,7 @@ noscript {
   }
   .project-box {
     flex-direction: column;
-    height: 800px;
+    height: auto;
   }
   .info-div {
     width: 100%;
@@ -1662,7 +1662,7 @@ noscript {
     height: 85vh;
   }
   .project-box {
-    height: 550px;
+    height: auto;
   }
   .info-div {
     height: 60%;
