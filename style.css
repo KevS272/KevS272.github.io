@@ -144,7 +144,7 @@ body {
   position: relative;
   width: 40px;
   height: 40px;
-  background-image: url(src/png/crescent-moon\\(1\).png);
+  background-image: url(src/png/moon.png);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -1084,6 +1084,7 @@ noscript {
   color: gray;
   font-size: 1.7rem;
   font-weight: 400;
+  text-align: justify;
 }
 /* Project visit button */
 .cta {
