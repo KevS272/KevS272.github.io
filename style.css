@@ -257,12 +257,7 @@ noscript{
     justify-content: center;
     font-size: 1.5rem;
     position: relative;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
+    cursor: pointer;
     font-family: fira code;
 }
 
