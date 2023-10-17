@@ -1761,5 +1761,6 @@ transition-duration: 1.6s;
     /* width: 75px; */
     height: 75px;
     padding: 10px;
+    border-radius: 15px;
     /* filter: brightness(0) invert(1); */
 }
