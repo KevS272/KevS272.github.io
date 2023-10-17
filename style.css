@@ -159,13 +159,8 @@ body{
     background-size:50%;
     background-repeat: no-repeat;
     background-position: center;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
     transition-duration: .5s;
+    cursor: pointer;
 }
 
 #switchforvisualmode{
@@ -180,58 +175,7 @@ body{
     background-position: center;
 
 }
-/* for sound */
-.soundtogglebuttoncontainer{
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translate(-130px)scale(0);
-    transition-duration: .3s;
-}
-.soundmodeshow{
-    transition-delay: .1s;
-    transition-duration: .5s;
-    display: inline-block;
-    transform:translate(0px)scale(1);
 
-}
-#labelforsound {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-image: url(src/svg/Mute_Icon.svg);
-    background-size:60%;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    transition-duration: .5s;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
-}
-.invertsoundlabel{
-   filter: invert(1);
-}
-#switchforsound{
-    display: none;
-}
-
-#switchforsound:checked+#labelforsound { 
-    transition-duration: .5s;
-    background-image: url(src/svg/Speaker_Icon.svg);
-    background-size:50%;
-    background-repeat: no-repeat;
-    background-position: center ;
-   
-}
 header{
     width: 100%;
     height: 150px;
@@ -643,12 +587,6 @@ noscript{
     border-radius: 0px;
     cursor: pointer;
     transition: all .3s;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
   }
   
   .letsTalkBtn-text {
