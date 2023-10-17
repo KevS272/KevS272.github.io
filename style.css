@@ -1062,6 +1062,7 @@ noscript {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 50%;
   /* padding-top: 70px;
   padding-left: 10px; */
 }
@@ -1577,6 +1578,7 @@ noscript {
   }
   .image-div {
     padding: 0;
+    max-width: 100%;
 
   }
 }
