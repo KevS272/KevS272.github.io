@@ -102,19 +102,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-     cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
-        padding: 0px 20px;
-        background-image: url(src/svg/settings-svgrepo-com.svg);
-        background-size: 60%;
-        background-repeat: no-repeat;
-        background-position: center;
-        mix-blend-mode: difference;
-        transition-duration: .5s;
+    cursor: pointer;
+    padding: 0px 20px;
+    background-image: url(src/svg/settings-svgrepo-com.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: difference;
+    transition-duration: .5s;
 }
 
 /* .fas{
@@ -1022,12 +1017,7 @@ noscript{
     flex-direction: row;
     justify-content: space-between;
     transition-duration: .3s;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
+    cursor: pointer;
     position: relative;
     box-shadow: 0px 10px 20px var(--color-shadowDark);
 }
@@ -1092,12 +1082,7 @@ noscript{
     transition: all 0.2s ease;
     border: none;
     background: none;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
+    cursor: pointer;
    }
    
    .cta:before {
@@ -1190,12 +1175,7 @@ noscript{
     text-align: center;
     transition: all .4s;
     background-color: transparent;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-    cursor: url('click.png')10 12;
+    cursor: pointer;
     display: none;
 }
 #backtotopbutton article{
@@ -1252,15 +1232,10 @@ noscript{
     border-radius: 50%;
     border: 2px solid rgb(226, 222, 222);
     transition-duration: .3s;
-    cursor: url('click.png');
-    cursor: url('click.png'),
-    url('click.png');
-    cursor: url('click.png'),
-    move;
-        cursor: url('click.png')10 12;
-        position: relative;
-        box-shadow: 0px 0px 0px #8000ff inset;
-        transition-duration: .3s;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 0px 0px #8000ff inset;
+    transition-duration: .3s;
 }
 .getintouch-heading{
     width: 100%;
