@@ -939,9 +939,11 @@ noscript {
   font-size: 1.5rem;
   font-weight: 400;
   color: rgb(101, 100, 100);
-  text-align: center;
+  text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
+  text-justify: inter-word;
+  text-align-last: center;
 }
 
 /* skills section ends */
